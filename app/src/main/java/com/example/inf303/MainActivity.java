@@ -17,7 +17,12 @@ import android.os.Bundle;
 public class MainActivity extends AppCompatActivity {
     private static String TAG="MainActivity";
     Database v1;
+    ListDataActivity v2;
     private Button kayit,goster;
+
+
+
+
     private EditText ad,soyad;
 
     @Override
@@ -31,7 +36,9 @@ public class MainActivity extends AppCompatActivity {
 
         kayit = (Button) findViewById(R.id.kayit);
         goster = (Button) findViewById(R.id.goster);
+
         v1 = new Database(this);
+        v2=new ListDataActivity();
 
 
         kayit.setOnClickListener(new View.OnClickListener() {
@@ -65,8 +72,12 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+
+
     }
-     public void AddData(String a,String b){
+     public void
+     AddData(String a,String b){
         boolean insertData=v1.addData(a, b);
 
         if(insertData){

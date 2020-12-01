@@ -21,5 +21,8 @@
     <string name="isim_gir">isim_gir</string>
 
     <string name="soyad_gir">soyad_gir</string>
+    <string name="button">Button</string>
+    <string name="back">BACK</string>
+    
 
 </resources>
