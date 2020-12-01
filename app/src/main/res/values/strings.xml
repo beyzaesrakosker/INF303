@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">INF303</string>
+    <string name="join_e_mail">Join e-mail</string>
+    <string name="password">Password</string>
+    <string name="signup">SIGNUP</string>
+    <string name="login">LOGIN</string>
+    <string name="listing">LISTING</string>
+    <string name="kullanicilist">kullanicilist</string>
+    <string name="listele">listele</string>
+    <string name="liste">liste</string>
+    <string name="kaydet">kaydet</string>
+    <string name="kaydett">KAYDET</string>
+    <string name="listelee">LISTELE</string>
+    <string name="name">name</string>
+    <string name="namee">Name</string>
+    <string name="g_ster">GÖSTER</string>
+    <string name="Join_Name">Name</string>
+    <string name="namen">Name</string>
+    <string name="join_surname">Join_surname</string>
+    <string name="surname">Name</string>
+    <string name="isim_gir">isim_gir</string>
+
+    <string name="soyad_gir">soyad_gir</string>
+
+</resources>
